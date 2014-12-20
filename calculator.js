@@ -1,11 +1,39 @@
-// add
+(function() {
 
-// subtract
+	/* Functions */
+	// add
+	// subtract
+	// multiply
+	// divide
+	// square root
+	// clear result
 
-// multiply
+	// get all key elements
+	var keys = document.querySelectorAll('.key');
+	var display = document.querySelector('.display p');
 
-// divide
+	for (var i = 0; i < keys.length; i++) {
+		var key = keys[i];
 
-// square root
+		// listen for a click on all keys
+		key.addEventListener('click', function() {
 
-// clear result
+			if (!isNaN(parseInt(this.innerHTML))) {
+				display.innerHTML += this.innerHTML;
+			}
+
+			else if (isNaN(parseInt(this.innerHTML)) {
+				
+			}
+		});
+	}
+
+
+})();
+
+
+/*
+	
+	First take all numbers as strings
+
+*/
